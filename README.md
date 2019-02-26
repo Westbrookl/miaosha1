@@ -1,6 +1,6 @@
 ## frist
-关于对于结果的处理：
-创建一个类 用于接受状态码，数据，和状态的信息。如果成功的话返回new Result<T>(T data)  失败的话则返回一个 new Result<T>(CodeMsg )用来表示状态码和错误信息。
+### 关于对于结果的处理：
+ 创建一个类 用于接受状态码，数据，和状态的信息。如果成功的话返回new Result<T>(T data)失败的话则返回一个 new Result<T>(CodeMsg )用来表示状态码和错误信息。
 关于模板设计模式：用模板创建了一个UserKey redis相关的配置
 3 对于redis相关的配置，以及怎么读取redis的配置，在SpringBoot中的@ConfigurationProperties()的内容
 4 @Component与@Bean 的区别
