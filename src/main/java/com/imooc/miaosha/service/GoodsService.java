@@ -31,7 +31,7 @@ public class GoodsService {
      */
     public void reduceStock(GoodsVo goodsVo){
         MiaoshaGoods goods = new MiaoshaGoods();
-        goods.setId(goodsVo.getId());
+        goods.setGoodsId(goodsVo.getId());//得到商品的Id
         goodsDao.reduceSocket(goods);
     }
 }
